@@ -490,7 +490,7 @@ p {
 @media only screen and (max-width: 1400px) {
   :root {
     --img-size: 200px;
-    --bp-img: 300px;
+    --bp-img: 350px;
   }
 
   .App {
@@ -547,7 +547,7 @@ p {
     height: var(--bp-img+100);
     border-radius: 1000px;
     margin: 0;
-    padding: 5px;
+    padding: 2px;
   }
 
   .bass,
