@@ -490,7 +490,7 @@ p {
 @media only screen and (max-width: 1400px) {
   :root {
     --img-size: 200px;
-    --bp-img: 350px;
+    --bp-img: 250px;
   }
 
   .App {
