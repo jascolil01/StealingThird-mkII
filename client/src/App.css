@@ -544,7 +544,7 @@ p {
 
   .bp {
     width: var(--bp-img);
-    height: var(--bp-img);
+    height: var(--bp-img+100);
     border-radius: 1000px;
   }
 
