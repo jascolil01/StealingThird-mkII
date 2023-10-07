@@ -6,7 +6,7 @@
   --five-background: #1f211d;
   --header-footer-color: #231f20;
   --img-size: 100px;
-  --img-size-mobile: 70px;
+  --img-size-mobile: 50px;
   --border-size: 280px;
   --music-player-size: 190px;
   --album-cover: 100px
@@ -546,6 +546,7 @@ p {
     width: var(--bp-img);
     height: var(--bp-img+100);
     border-radius: 1000px;
+    margin: 5px;
   }
 
   .bass,
