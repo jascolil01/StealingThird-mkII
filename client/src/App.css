@@ -4,7 +4,7 @@
   --two-background: #815339;
   --four-background: white;
   --five-background: #1f211d;
-  --header-footer-color: #231f20;
+  --header-footer-color: transparent;
   --img-size: 100px;
   --img-size-mobile: 70px;
   --border-size: 280px;
@@ -167,7 +167,7 @@ button {
 
 .contact {
   color: #231f20;
-  size: 20px
+  size: 15px
 }
 
 .contact:hover {
@@ -544,7 +544,7 @@ p {
 
   .bp {
     width: var(--bp-img);
-    height: var(--bp-img+0.5);
+    height: 450px;
     border-radius: 1000px;
   }
 
