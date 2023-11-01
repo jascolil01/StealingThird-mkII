@@ -25,50 +25,27 @@ export default function About() {
   const handleClick = (x) => {
     if (x === 1) {
       setBass((current) => !current)
-      setDrum(false)
-      setGuitar(false)
-      setSinger(false)
-      setGuitar2(false)
-      setContact(false)
+      setContact(setGuitar2(setSinger(setGuitar(setDrum(false)))))
     } else if (x === 2) {
-      setBass(false)
       setDrum((current) => !current)
-      setGuitar(false)
-      setSinger(false)
-      setGuitar2(false)
-      setContact(false)
+      setContact(setGuitar2(setSinger(setBass(setGuitar(false)))))
     } else if (x === 3) {
-      setBass(false)
-      setDrum(false)
-      setGuitar(false)
-      setGuitar2(false)
-      setContact(false)
       setSinger((current) => !current)
+      setContact(setGuitar2(setGuitar(setDrum(setBass(false)))))
     } else if (x === 4) {
-      setBass(false)
-      setDrum(false)
       setGuitar((current) => !current)
-      setSinger(false)
-      setGuitar2(false)
-      setContact(false)
+      setContact(setGuitar2(setDrum(setBass(setSinger(false)))))
     } else if (x === 5) {
-      setBass(false)
-      setDrum(false)
-      setGuitar(false)
       setGuitar2((current) => !current)
-      setSinger(false)
-      setContact(false)
+      setContact(setGuitar(setDrum(setBass(setSinger(false)))))
     } else if (x === 6) {
-      setBass(false)
-      setDrum(false)
-      setGuitar(false)
-      setGuitar2(false)
-      setSinger(false)
       setContact((current) => !current)
+      setGuitar2(setGuitar(setDrum(setBass(setSinger(false)))))
     }
   }
   return (
     <div className='crew'>
+      <button onClick={() => newFunc("Bass")}>test</button>
       <h1 style={{ backgroundColor: '#231f20', borderRadius: 20, padding: 10, margin: 10, border: '1px solid white', }}>Meet the crew</h1>
       <div className='mrStark'>
         <div className="about">
