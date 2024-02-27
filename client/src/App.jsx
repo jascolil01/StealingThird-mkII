@@ -1,5 +1,4 @@
 import './App.css'
-import BandLogo from './assets/Screenshot 2023-09-30 232830.png'
 import Home from './pages/Home'
 
 function App() {
