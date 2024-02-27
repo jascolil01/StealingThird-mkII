@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="info">
       <img src={BandPhoto} alt='profile pic' />
       <h1>Feel free to email us!</h1>
-      <h2><a className='contact' href='mailto: stealingthirdbandne@gmail.com'>Click here to email us!</a></h2>
+      <h2>stealingthirdbandne@gmail.com</h2>
       <h1>Our Facebook Page <a style={{ padding: 10 }} className='contact' href="https://www.facebook.com/profile.php?id=100090357458006">here</a></h1>
     </div>
   )
